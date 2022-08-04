@@ -102,4 +102,6 @@ theme: landscape
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-    type: ""
+    type: git
+    branch: master
+    repo: git@github.com:li3cmz/li3cmz.github.io.git  //此处记得改成你的 github 仓库的地址
